@@ -7,7 +7,7 @@ import java.util.ArrayList;
 /**
  * Created by silviana campian on 11/27/2015.
  */
-class CompetitionOccurenceData implements Serializable {
+public class CompetitionOccurenceData implements Serializable {
     private Integer competitionOccurenceId;
     private CompetitionData competition;
     private ArrayList<MatchData> matches;
